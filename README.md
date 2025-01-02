@@ -3,6 +3,8 @@ This is a React-based Calendar Application developed to track communications wit
 
 
 -> Modules
+
+
 Admin Module: Allows administrators to set up companies and communication methods.
 User Module: Provides users a dashboard and calendar to manage and view communications.
 Reporting and Analytics Module (Optional): Offers actionable insights on communication performance and trends.
