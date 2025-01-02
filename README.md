@@ -6,11 +6,16 @@ This is a React-based Calendar Application developed to track communications wit
 
 
 Admin Module: Allows administrators to set up companies and communication methods.
+
+
 User Module: Provides users a dashboard and calendar to manage and view communications.
+
+
 Reporting and Analytics Module (Optional): Offers actionable insights on communication performance and trends.
 
 
 Features
+
 -> Admin Module
 
 -> Company Management: Admins can add, edit, and delete companies. Each company has:
@@ -30,6 +35,7 @@ Mandatory Flag
 
 
 -> User Module
+
 -> Dashboard:
 Lists companies with their latest communications and next scheduled communication.
 Color-coded highlights:
@@ -52,19 +58,25 @@ Allows users to manage and track communication schedules.
 
 
 -> Setup and Deployment Instructions
+
 -> Prerequisites
 Ensure you have Node.js and npm installed:
 Download Node.js
 
 
 -> Steps to Run the Project Locally
+
 Clone the Repository:
 git clone https://github.com/your-username/calendar-app.git
 
 
 -> Application Functionality
+
+
 Admin Module Admins configure companies and communication methods. Admins set up communication intervals and mandatory sequences. User Module Users interact with the dashboard and calendar to manage communications. Users can log new communications and see past ones with tooltips.
 
 
 -> Known Limitations
+
+
 Data Persistence: Currently, there is no backend or database, meaning data will be lost on refresh. A backend integration is needed for permanent data storage. Browser Compatibility: The app is optimized for modern browsers; older browsers may have limited support. Limited Reporting: Reporting features are optional and may require additional configuration or enhancements for advanced reporting capabilities.
