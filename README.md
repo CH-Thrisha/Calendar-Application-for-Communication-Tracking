@@ -5,10 +5,11 @@ This is a React-based Calendar Application developed to track communications wit
 Admin Module: Allows administrators to set up companies and communication methods.
 User Module: Provides users a dashboard and calendar to manage and view communications.
 Reporting and Analytics Module (Optional): Offers actionable insights on communication performance and trends.
+
 Features
 -> Admin Module
--> Company Management: Admins can add, edit, and delete companies. Each company has:
 
+-> Company Management: Admins can add, edit, and delete companies. Each company has:
 Name
 Location
 LinkedIn Profile
@@ -16,40 +17,40 @@ Emails
 Phone Numbers
 Comments
 Communication Periodicity
--> Communication Method Management: Admins can configure communication methods, including:
 
+-> Communication Method Management: Admins can configure communication methods, including:
 Name (e.g., LinkedIn Post, Email)
 Description
 Sequence
 Mandatory Flag
+
 -> User Module
 -> Dashboard:
-
 Lists companies with their latest communications and next scheduled communication.
 Color-coded highlights:
 Red: Overdue communication
 Yellow: Communication due today
 Users can disable/override highlights.
--> Interactive Features:
 
+-> Interactive Features:
 Hover to view comments on past communications.
 Select a company or multiple companies to log a communication, with the option to add type, date, and notes.
--> Notifications:
 
+-> Notifications:
 Displays overdue and due communications.
 Badge on notification icon indicates overdue or due communications.
--> Calendar View:
 
+-> Calendar View:
 Visualizes past and upcoming communications.
 Allows users to manage and track communication schedules.
+
 -> Setup and Deployment Instructions
 -> Prerequisites
 Ensure you have Node.js and npm installed:
-
 Download Node.js
+
 -> Steps to Run the Project Locally
 Clone the Repository:
-
 git clone https://github.com/your-username/calendar-app.git
 
 -> Application Functionality
